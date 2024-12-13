@@ -25,8 +25,7 @@ React Router による、クライアントサイドルーティングの基本�
 - React Router によるルーティングの実装
 - vite を用いた React 環境構築
 - Tailwind CSS を用いたスタイリング
-- API を利用したデータの取得と表示。
-- React の基本的な Hook である、useState と useEffect
+- TypeScriptによる型チェック
 - vercel へのデプロイ
 
 ---
