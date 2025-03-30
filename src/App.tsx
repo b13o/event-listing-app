@@ -7,7 +7,7 @@ import EventConfirm from "./pages/EventConfirm";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route index element={<Navigate to="/events" />} />
         {/* ネストしたルート */}
